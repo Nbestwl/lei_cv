@@ -1,0 +1,111 @@
+% !TeX program = lualatex
+%% The MIT License (MIT)
+%%
+%% Copyright (c) 2015 Daniil Belyakov
+%%
+%% Permission is hereby granted, free of charge, to any person obtaining a copy
+%% of this software and associated documentation files (the "Software"), to deal
+%% in the Software without restriction, including without limitation the rights
+%% to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+%% copies of the Software, and to permit persons to whom the Software is
+%% furnished to do so, subject to the following conditions:
+%%
+%% The above copyright notice and this permission notice shall be included in all
+%% copies or substantial portions of the Software.
+%%
+%% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+%% IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+%% FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+%% AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+%% LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+%% OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+%% SOFTWARE.
+
+% The font could be set to Windows-specific Calibri by using the 'calibri' option
+\documentclass[]{mcdowellcv}
+
+% For mathematical symbols
+\usepackage{amsmath}
+
+% Set applicant's personal data for header
+\name{Lei Wang}
+\address{4901 Wornall Rd, Apt 1107 \linebreak Kansas City MO 64112}
+\contacts{(785) 979-2654 \linebreak 62lwang@gmail.com}
+
+\begin{document}
+
+	% Print the header
+	\makeheader
+	
+	% Print the content
+	\begin{cvsection}{EMPLOYMENT}
+		\begin{cvsubsection}{Software Engineer, Full Time}{Cerner Corporation}{July 2019 -- Present}			
+			\begin{itemize}
+				\item Created and improved UI features of a chrome extension for displaying pull request status in GitHub using Javascript, webpack, Babel, Sass, and Jest unit testing framework
+				\item Currently working on the ‘Healthe Insights’ application which handles application services integration from multiple teams within the Population Health Dev using Ruby on Rails and React.js
+			\end{itemize}
+		\end{cvsubsection}
+		
+		\begin{cvsubsection}{Full Stack Engineer, Intern}{ON Semiconductor}{May 2018 -- Aug 2018}	
+			\begin{itemize}
+				\item Developed a scalable product display system for Spyglass project that has been demonstrated in the 2019 CES
+				\item Designed a web-based portal to facilitate and accelerate the development of collaterals using various web technologies such as Node.js, Express.js, React.js, Redux, Socket.io, and CouchBase
+				\item Created multiple RESTful APIs and implemented unit testing using Mocha and Chai Javascript Frameworks
+				\item Collaborated and communicated with teammates through Daily Scrum Methodology as well as participated in code review via Bitbucket
+			\end{itemize}
+		\end{cvsubsection}
+		
+		\begin{cvsubsection}{Software Developer, Part Time}{University of Kansas}{July 2017 -- Jan 2018}		
+			Machine Learning Web Application
+			\begin{itemize}
+				\item Designed a machine learning workflow web application which has been included in the 2017 IEEE tutorial on automated hyperparameter turning for machine learning models at the IEEE big data conference
+				\item Written in PHP using Codeigniter framework, HTML, CSS, JQUERY, AJAX, and SQL for data storing
+			\end{itemize}
+			Food Frequency Questionnaire Mobile App (IOS, Android)
+			\begin{itemize}
+				\item Created adaptive app using React Native framework, Redux workflow, and Firebase to assist over 1,000 existing patients and clinicians
+				\item Implemented Item Responsive Theory to drastically shorten user input time while maintaining the test accuracy
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{EDUCATION}
+		\begin{cvsubsection}{Lawrence, KS}{University of Kansas}{Fall 2012 -- May 2019}
+			\begin{itemize}
+				\item M.S.E. in Computer Science with a concentration in Data Science, May 2019. GPA: 3.71
+				\item B.S.E. in Computer Science with Minor in Business, May 2017. In-major GPA: 3.21
+				\item M.S. Thesis: Keystroke Inference on Android Device Using Deep Learning
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+
+	\begin{cvsection}{TECHNICAL EXPERIENCE}
+		\begin{cvsubsection}{Projects}{}{}
+			\begin{itemize}
+				\item \textbf{Information Retrieval (2018):} Search engine
+				\item \textbf{Information Retrieval (2018):} Search engine
+				\item \textbf{Information Retrieval (2018):} Search engine
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{ADDITIONAL EXPERIENCE}
+		\begin{cvsubsection}{}{}{}	
+			\begin{itemize}
+				\item \textbf{Graduate Teaching Assistant (2018 – 2019):} Taught and conducted Data Structure lab sections for three semesters, mentored over 150 students in total
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{LANGUAGES AND TECHNOLOGIES}
+		\begin{cvsubsection}{}{}{}	
+			\begin{itemize}
+				\item \textbf{Programming Languages:} Javascript, Python, Java, C++, Ruby
+				\item \textbf{Data Science/Machine Learning:} Numpy, Pandas, Keras, Scikit-learn
+				\item \textbf{Front and Back-End:} React.js, React Native, Redux, Express.js, Webpack, Babel, MongoDB, JSON, HTML, CSS, SASS, SQL, PHP
+				\item \textbf{Other Tools/Skills:} Android Studio, Git, Visual Studio, Data Structures, Algorithms, Problem Solving, Jira, Jenkins, Crucible, Optimization, Software Development, Object Oriented Design, Database Design, Amazon Web Services
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+\end{document}
